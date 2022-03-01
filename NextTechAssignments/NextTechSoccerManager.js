@@ -4,11 +4,19 @@
 // Run the code in the console to find out what's the secondTeam final playing style.
 
 ////////////////////////////
-// your code here
+function getPlayingStyle() {
+    let firstTeam = [3, 3, 1, 3]
+    let secondTeam = firstTeam
+    firstTeam[0] = 4
+    firstTeam[1] = 1
+    firstTeam[2] = 4
+    firstTeam[3] = 1 
+    return secondTeam
+  }
 
 ///////////////////////////
 //uncomment this line to see the results in the browser console
-//console.log("results = " + getPlayingStyle())
+console.log("results = " + getPlayingStyle())
 
 ///////////////////////////
 //dont change the code under this line
